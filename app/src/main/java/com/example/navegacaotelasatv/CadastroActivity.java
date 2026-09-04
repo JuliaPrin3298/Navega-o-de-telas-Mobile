@@ -21,7 +21,7 @@ public class CadastroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro);
 
-        btnSalvar = findViewById(R.id.btn_login);
+        btnSalvar = findViewById(R.id.btn_salvar);
         txtEmail = findViewById(R.id.txt_email);
 
         btnSalvar.setOnClickListener(v -> {
